@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ABC">
+    <parameter name="calcName" value="Advance Cal"></parameter>
+    <parameter name="type" value="HAPPY"></parameter>
+
+    <test name="CalculatorTesting">
+
+        <parameter name="type" value="SAD"></parameter>
+        <classes>
+            <class name="HomeTest">
+                <parameter name="MethodName" value="xyz"></parameter>
+            </class>
+        </classes>
+    </test>
+</suite>
